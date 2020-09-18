@@ -1,0 +1,1 @@
+$N^{\mu} = \frac{\partial \mathscr{L}}{\partial (\partial_\mu \varphi_i)} (f_i - \frac{\partial \varphi_i}{\partial x} \cdot \xi) + \mathscr{L} \xi^{\mu}$

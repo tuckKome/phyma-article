@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/phyma-post/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/phyma-post/static/js/main.17b4684e.chunk.js",
+    "main.js.map": "/phyma-post/static/js/main.17b4684e.chunk.js.map",
+    "runtime-main.js": "/phyma-post/static/js/runtime-main.87c7b089.js",
+    "runtime-main.js.map": "/phyma-post/static/js/runtime-main.87c7b089.js.map",
+    "static/js/2.8e0ad200.chunk.js": "/phyma-post/static/js/2.8e0ad200.chunk.js",
+    "static/js/2.8e0ad200.chunk.js.map": "/phyma-post/static/js/2.8e0ad200.chunk.js.map",
+    "index.html": "/phyma-post/index.html",
+    "precache-manifest.bef3ea6088f68864ebcb4f5e3e339329.js": "/phyma-post/precache-manifest.bef3ea6088f68864ebcb4f5e3e339329.js",
+    "service-worker.js": "/phyma-post/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/phyma-post/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8e0ad200.chunk.js.LICENSE.txt": "/phyma-post/static/js/2.8e0ad200.chunk.js.LICENSE.txt",
+    "static/media/noether's_theorem.md": "/phyma-post/static/media/noether's_theorem.d34aa415.md",
+    "static/media/title.md": "/phyma-post/static/media/title.b10601d9.md"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87c7b089.js",
+    "static/js/2.8e0ad200.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.17b4684e.chunk.js"
+  ]
+}
