@@ -1,4 +1,4 @@
-# Noetherの定理firef
+# Noetherの定理
 
 - 参考 : [https://www.saiensu.co.jp/](https://www.saiensu.co.jp/search/?isbn=4910054701272&y=2017)
 
@@ -48,7 +48,7 @@ $$
 
 が成り立つ.
 
-- $**N**$はNotherCurrentとよばれる.
+- **$N$**はNotherCurrentとよばれる.
 - $\mathscr{N}$はNethorChargeとよばれる.
 - $\xi=0$のときは時空と無関係な対称性で, **内部対称性**とよばれる.
 - $\epsilon$が定数のときは, 大局的変換とよばれる.
