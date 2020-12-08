@@ -5,6 +5,16 @@ import { makeStyles } from "@material-ui/core/styles";
 import MarkdownIt from "markdown-it";
 import mk from "markdown-it-katex";
 
+import ReactMarkdown from "react-markdown";
+import { InlineMath, BlockMath } from "react-katex";
+import math from "remark-math";
+import "katex/dist/katex.min.css"; // `react-katex` does not import the CSS for you
+
+const renderers = {
+  inlineMath: ({ value }) => <InlineMath math={value} />,
+  math: ({ value }) => <BlockMath math={value} />,
+};
+
 const md = new MarkdownIt();
 md.use(mk);
 
@@ -40,7 +50,12 @@ export default function MainTypo(props) {
         <Grid item sm={1}></Grid>
         <Grid item xs={12} sm={9}>
           <Paper className={classes.paper}>
-            <div dangerouslySetInnerHTML={{ __html: mainText }}></div>
+            {/* <div dangerouslySetInnerHTML={{ __html: mainText }}></div> */}
+            <ReactMarkdown
+              plugins={[math]}
+              renderers={renderers}
+              children={}
+            ></ReactMarkdown>
           </Paper>
         </Grid>
         <Grid item></Grid>

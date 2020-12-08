@@ -20,8 +20,20 @@ import MainTypo from "./maintypo";
 import MarkdownIt from "markdown-it";
 import mk from "markdown-it-katex";
 
+import ReactMarkdown from 'react-markdown'
+import {InlineMath, BlockMath} from 'react-katex'
+import math from 'remark-math'
+import 'katex/dist/katex.min.css' // `react-katex` does not import the CSS for you
+
+const renderers = {
+  inlineMath: ({value}) => <InlineMath math={value} />,
+  math: ({value}) => <BlockMath math={value} />
+}
+
 const md = new MarkdownIt();
 md.use(mk);
+
+
 
 const useStyles = makeStyles((theme) => ({
   root: {
